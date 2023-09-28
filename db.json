@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "titulo": "Post Angular"
+    },
+    {
+      "id": 3,
+      "titulo": "Post UE5",
+      "autor": "John Carmack"
+    }
+  ]
+}

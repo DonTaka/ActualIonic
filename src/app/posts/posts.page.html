@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Posts</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-list>
+
+
+      <h1>Pagina de Api</h1>
+      <ion-item>
+        <ion-label>Ver todo</ion-label>
+        <ion-button (click)="listar()" size="large" expand="block" shape="square">
+          Ver
+        </ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>Buscar</ion-label>
+        <ion-button (click)="buscar()" size="large" expand="block" shape="square">
+          Buscar
+        </ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>Agregar</ion-label>
+        <ion-button (click)="agregar()" size="large" expand="block" shape="square">
+          Agregar
+        </ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>Modificar</ion-label>
+        <ion-button (click)="modificar()" size="large" expand="block" shape="square">
+          Modificar
+        </ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>Eliminar</ion-label>
+        <ion-button (click)="eliminar()" size="large" expand="block" shape="square">
+          Eliminar
+        </ion-button>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+</ion-content>
